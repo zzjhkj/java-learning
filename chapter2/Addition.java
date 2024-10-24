@@ -8,9 +8,9 @@ public class Addition {   // fix typo here
         // create a Scanner to obtain input from the command window
         Scanner input = new Scanner(System.in);
         
-        int number1;  // first number to add
-        int number2;  // second number to add
-        int sum;      // sum of number1 and number2
+        int number1,  // first number to add
+            number2,  // second number to add
+            sum;      // sum of number1 and number2
         
         System.out.print("Enter first integer: ");  // prompt for input
         number1 = input.nextInt();  // read first number from user
